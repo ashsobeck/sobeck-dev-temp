@@ -18,19 +18,21 @@ export const App = () => (
       <Grid minH="100vh" p={3}>
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-            Testing the edit from laptop to container
+          {/* <Logo h="40vmin" pointerEvents="none" /> */}
+          <Text fontSize="5xl">
+            Hi.
+          </Text>
+          <Text fontSize="3xl">
+            I'm getting things ready for everyone. Check back soon!
           </Text>
           <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
+            color="green.500"
+            href="https://github.com/ashsobeck"
             fontSize="2xl"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn Chakra
+            My GitHub
           </Link>
         </VStack>
       </Grid>
