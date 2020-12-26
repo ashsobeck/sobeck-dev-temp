@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/sdev/node_modules
+/sdev/.pnp
+/sdev/.pnp.js
+
+# testing
+/sdev/coverage
+
+# production
+/sdev/build
+
+# misc
+/sdev/.DS_Store
+/sdev/.env.local
+/sdev/.env.development.local
+/sdev/.env.test.local
+/sdev/.env.production.local
+
+/sdev/npm-debug.log*
+/sdev/yarn-debug.log*
+/sdev/yarn-error.log*
+
+/sdev/.eslintcache
+
+/data/certbot
